@@ -1,8 +1,7 @@
-function Hello(props) {
-  const{name,disp,age}=props
+function Hello({obj}) {
   return (
     <div>
-    <h1>hello {name}{disp} {age}</h1>
+    <h1>{obj.id}</h1>
     </div>
   );
 }

@@ -1,9 +1,9 @@
-import Hello from "./Hello"
-
+import Fruits from "./components/Fruits";
+// import Hello from "./Hello"
 function App() {
   return (
     <>
-        <Hello   name="John " disp="Age is:" age={30} />
+      <Fruits/>
     </>
   )
 }
