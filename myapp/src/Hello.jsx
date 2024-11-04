@@ -1,7 +1,8 @@
 function Hello(props) {
+  const{name,disp,age}=props
   return (
     <div>
-    <h1>hello {props.name}{props.disp} {props.age}</h1>
+    <h1>hello {name}{disp} {age}</h1>
     </div>
   );
 }
