@@ -1,8 +1,9 @@
+import Hello from "./Hello"
 
 function App() {
   return (
     <>
-        <p>hello World!</p>
+        <Hello   name="John " disp="Age is:" age={30} />
     </>
   )
 }
