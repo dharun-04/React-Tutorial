@@ -1,11 +1,13 @@
 import React from 'react'
+import Welcome from './welcome';
+import Exit from './Exit';
 
 export default function Condition() {
-  const bo=false;
+  const bo=true;
   if(bo){
-    return <div>hello</div>;
+    return <Welcome/>;
   }
   else {
-    return <div>world</div>;
+    return <Exit/>;
   }
 }
